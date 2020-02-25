@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+>
+
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".SegitigaFragment">
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/numAlasS" android:hint="Alas"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/numTinggiS" android:hint="Tinggi"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/numAlasS"
+            app:layout_constraintStart_toStartOf="@+id/numAlasS"
+            app:layout_constraintEnd_toEndOf="@+id/numAlasS"/>
+    <Button
+            android:text="@string/btn_hitung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/btnHitungPersegiS"
+            app:layout_constraintTop_toBottomOf="@+id/kelilingS"
+            android:layout_marginTop="16dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="24dp"/>
+    <TextView
+            android:text="Luas : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/luasS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/btnshareS"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"/>
+    <TextView
+            android:text="Keliling :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/kelilingS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/luasS" android:layout_marginTop="16dp"/>
+    <Button
+            android:text="@string/btn_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/btnshareS"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/numTinggiS" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="24dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

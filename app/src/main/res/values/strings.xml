@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">PraAssesment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_change_fragment_persegi">Persegi Panjang</string>
+    <string name="btn_hitung">hitung</string>
+    <string name="btn_share">share</string>
+
+
+
+    <string name="hasil_luas_bd">Luas : %1$.1f</string>
+    <string name="hasil_keliling_bd">Keliling : %1$.1f</string>
+
+    <string name="hasil_luas_s">Luas : %$1d</string>
+    <string name="hasil_keliling_s">Keliling : %$1d</string>
+
 </resources>

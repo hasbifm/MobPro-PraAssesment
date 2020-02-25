@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation"
+            app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/persegiPFragment" android:name="org.d3if4091.praassesment.PersegiPFragment"
+              android:label="Persegi" tools:layout="@layout/fragment_persegi"/>
+    <fragment android:id="@+id/homeFragment" android:name="org.d3if4091.praassesment.HomeFragment"
+              android:label="Bangun Datar" tools:layout="@layout/fragment_home">
+        <action android:id="@+id/action_homeFragment_to_persegiPFragment" app:destination="@id/persegiPFragment"
+                app:popUpTo="@+id/homeFragment"/>
+        <action android:id="@+id/action_homeFragment_to_segitigaFragment" app:destination="@id/segitigaFragment"
+                app:popUpTo="@+id/homeFragment"/>
+    </fragment>
+    <fragment android:id="@+id/aboutFragment" android:name="org.d3if4091.praassesment.AboutFragment"
+              android:label="About" tools:layout="@layout/fragment_about"/>
+    <fragment android:id="@+id/segitigaFragment" android:name="org.d3if4091.praassesment.SegitigaFragment"
+              android:label="Segitiga" tools:layout="@layout/fragment_segitiga"/>
+</navigation>
