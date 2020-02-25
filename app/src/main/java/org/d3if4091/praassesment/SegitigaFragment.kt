@@ -43,7 +43,7 @@ class SegitigaFragment : Fragment() {
             val keliling : Double
 
             luas = (alas*tinggi)/2
-            keliling = 3*(alas)
+            keliling = alas+tinggi+Math.sqrt(Math.pow(alas,2.0)+Math.pow(tinggi,2.0))
 
             binding.luasS.text = getString(R.string.hasil_luas_bd,luas)
             binding.kelilingS.text = getString(R.string.hasil_keliling_bd,keliling)

@@ -6,19 +6,19 @@
                                                    android:layout_height="match_parent"
                                                    tools:context=".AboutFragment">
     <TextView
-            android:text="Muhammad Faishal Hasbi"
+            android:text="@string/my_name"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/textView"
+            android:layout_height="wrap_content" android:id="@+id/myName"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toTopOf="@+id/myNIM"
             app:layout_constraintVertical_chainStyle="packed" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
             android:textColor="@android:color/black"/>
     <TextView
-            android:text="6706184091"
+            android:text="@string/my_nim"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/textView2"
+            android:layout_height="wrap_content" android:id="@+id/myNIM"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/myName" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

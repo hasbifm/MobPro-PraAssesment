@@ -12,7 +12,7 @@
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
             android:ems="10"
-            android:id="@+id/numPanjangP" android:hint="Panjang"
+            android:id="@+id/numPanjangP" android:hint="@string/hint_panjang"
             android:layout_marginTop="32dp" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"/>
     <EditText
@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
             android:ems="10"
-            android:id="@+id/numLebarP" android:hint="Lebar"
+            android:id="@+id/numLebarP" android:hint="@string/hint_lebar"
             android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/numPanjangP"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"/>
     <Button
@@ -30,14 +30,14 @@
             android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/numLebarP"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"/>
     <TextView
-            android:text="Luas : "
+            android:text="@string/tv_luas_bd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/luasP"
             app:layout_constraintTop_toBottomOf="@+id/btnHitungPersegiP" android:layout_marginTop="16dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
     <TextView
-            android:text="Keliling :"
+            android:text="@string/tv_keliling_bd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/KelilingP"
             app:layout_constraintTop_toBottomOf="@+id/luasP" android:layout_marginTop="16dp"

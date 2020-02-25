@@ -3,16 +3,31 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--fragment home-->
     <string name="btn_change_fragment_persegi">Persegi Panjang</string>
+    <string name="btn_change_fragment_Segitiga">Segitiga</string>
+
+    <!--fragment about-->
+    <string name="my_name">Muhammad Faishal Hasbi</string>
+    <string name="my_nim">6706184091</string>
+
+    <!--button in fragment segitiga and fragment persegi-->
     <string name="btn_hitung">hitung</string>
     <string name="btn_share">share</string>
 
-
-
+    <!--luas and keliling in fragment segitiga and fragment persegi-->
     <string name="hasil_luas_bd">Luas : %1$.1f</string>
     <string name="hasil_keliling_bd">Keliling : %1$.1f</string>
+    <string name="tv_luas_bd">Luas :</string>
+    <string name="tv_keliling_bd">Keliling :</string>
 
-    <string name="hasil_luas_s">Luas : %$1d</string>
-    <string name="hasil_keliling_s">Keliling : %$1d</string>
+    <!--fragment segitiga-->
+    <string name="hint_alas">Alas</string>
+    <string name="hint_tinggi">Tinggi</string>
+
+    <!--fragment persegi-->
+    <string name="hint_panjang">Panjang</string>
+    <string name="hint_lebar">Lebar</string>
 
 </resources>
