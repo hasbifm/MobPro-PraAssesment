@@ -11,6 +11,7 @@
     <!--fragment about-->
     <string name="my_name">Muhammad Faishal Hasbi</string>
     <string name="my_nim">6706184091</string>
+    <string name="my_class">D3RPLA 4202</string>
 
     <!--button in fragment segitiga and fragment persegi-->
     <string name="btn_hitung">hitung</string>
